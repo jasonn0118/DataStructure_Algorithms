@@ -59,32 +59,35 @@ class Node {
         return false;
       }
     }
-    //Still need to practice.
+    //Still need to practice. Advanced.
     remove(value) {
-    //   if(!this.root){
-    //     return false;
-    //   }
-    //   else {
-    //     let currentNode = this.root;
-    //     let parentNode = null;
+      if(!this.root){
+        return false;
+      }
+      else {
+        let currentNode = this.root;
+        let parentNode = null;
   
-    //     while(currentNode){
-    //       if(currentNode.value > value) {
-    //         //left
-    //         currentNode = currentNode.left;
-    //       } else if(currentNode.value < value) {
-    //         currentNode = currentNode.right;
-    //       } else{
-    //         //Find targetNode - change.
-    //         let removeNode = currentNode;
-    //         if(currentNode.right) {
-    //           currentNode = currentNode.right;
-    //         } else if (currentNode.left){
-    //           currentNode = currentNode.left;
-    //         }
-    //       }
-    //     }
-    //   }
+        while(currentNode){
+          if(currentNode.value > value) {
+            //left
+            currentNode = currentNode.left;
+          } else if(currentNode.value < value) {
+            currentNode = currentNode.right;
+          } else{
+            //Find targetNode - change.
+            //Option 1. If currentNode has right node.
+            if(currentNode.right) {
+              currentNode = currentNode.right;
+            }
+            //Option 1. If currentNode has left node.
+            else if (currentNode.left){
+              currentNode = currentNode.left;
+            }
+
+          }
+        }
+      }
     }
   }
   
