@@ -18,7 +18,7 @@ function fibonacciIterative(n) {
 }
 fibonacciIterative(6);
 
-function fibonacciRecursive(n) {
+function fibonacciRecursive(n) { //O(2^n).
   //code here;
   if (n <= 1) {
     return n;
