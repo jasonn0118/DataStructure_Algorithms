@@ -26,8 +26,17 @@
 // * for nested steps
 // Rule 4: Drop Non-dominant terms
 
+// What is good code?
+// 1. Readable
+// 2. Scalable
+// 2-1. Speed (Time Complexity)
+// 2-2. Memory (Space Complexity)
+
+// ==========================
+// -Memory (Space Complexity)-
 // -What causes Space complexity?-
 // Variables
 // Data Structures
 // Function Call
 // Allocations
+// ==========================
