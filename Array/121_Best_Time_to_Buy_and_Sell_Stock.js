@@ -17,7 +17,7 @@ var maxProfit = function (prices) {
   return maxProfit;
 };
 
-// 2nd approach: using one loop
+// 2nd approach: using one loop - O(n)
 var maxProfit2 = function (prices) {
   let maxProfit = 0;
   let lowestNum = prices[0];
