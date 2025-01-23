@@ -31,5 +31,3 @@ var canConstruct = function (ransomNote, magazine) {
 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-
-// 2nd approach
